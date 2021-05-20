@@ -1,0 +1,113 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mrp_production_tier_validation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-20 14:50+0000\n"
+"PO-Revision-Date: 2021-05-20 14:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: mrp_production_tier_validation
+#: code:addons/mrp_production_tier_validation/models/mrp_production.py:0
+#, python-format
+msgid "A validation process is still open for at least one record."
+msgstr ""
+"Un processus de validation est toujours en cours pour au moins un "
+"enregistrement."
+
+#. module: mrp_production_tier_validation
+#: model:ir.model.fields,field_description:mrp_production_tier_validation.field_mrp_production__can_review
+msgid "Can Review"
+msgstr ""
+
+#. module: mrp_production_tier_validation
+#: model:ir.model.fields,field_description:mrp_production_tier_validation.field_mrp_production__display_name
+#: model:ir.model.fields,field_description:mrp_production_tier_validation.field_tier_definition__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: mrp_production_tier_validation
+#: model:ir.model.fields,field_description:mrp_production_tier_validation.field_mrp_production__has_comment
+msgid "Has Comment"
+msgstr ""
+
+#. module: mrp_production_tier_validation
+#: model:ir.model.fields,field_description:mrp_production_tier_validation.field_mrp_production__id
+#: model:ir.model.fields,field_description:mrp_production_tier_validation.field_tier_definition__id
+msgid "ID"
+msgstr ""
+
+#. module: mrp_production_tier_validation
+#: model:ir.model.fields,field_description:mrp_production_tier_validation.field_mrp_production____last_update
+#: model:ir.model.fields,field_description:mrp_production_tier_validation.field_tier_definition____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: mrp_production_tier_validation
+#: model_terms:ir.ui.view,arch_db:mrp_production_tier_validation.view_mrp_production_filter
+msgid "Manufacturing orders reviewed and ready to be validated"
+msgstr "Ordres de fabrication examinées et prêtes à être validées"
+
+#. module: mrp_production_tier_validation
+#: model_terms:ir.ui.view,arch_db:mrp_production_tier_validation.view_mrp_production_filter
+msgid "My Manufacturing orders to review"
+msgstr "Mes ordres de fabrication à revoir"
+
+#. module: mrp_production_tier_validation
+#: model:ir.model.fields,field_description:mrp_production_tier_validation.field_mrp_production__need_validation
+msgid "Need Validation"
+msgstr "Besoin de validation"
+
+#. module: mrp_production_tier_validation
+#: model_terms:ir.ui.view,arch_db:mrp_production_tier_validation.view_mrp_production_filter
+msgid "Needs my Review"
+msgstr "Besoin de mon révision"
+
+#. module: mrp_production_tier_validation
+#: model:ir.model,name:mrp_production_tier_validation.model_mrp_production
+msgid "Production Order"
+msgstr "Ordre de fabrication"
+
+#. module: mrp_production_tier_validation
+#: model:ir.model.fields,field_description:mrp_production_tier_validation.field_mrp_production__rejected
+msgid "Rejected"
+msgstr "Rejeté"
+
+#. module: mrp_production_tier_validation
+#: model:ir.model.fields,field_description:mrp_production_tier_validation.field_mrp_production__reviewer_ids
+msgid "Reviewers"
+msgstr "Examinateurs"
+
+#. module: mrp_production_tier_validation
+#: code:addons/mrp_production_tier_validation/models/mrp_production.py:0
+#, python-format
+msgid ""
+"This action needs to be validated for at least one record. \n"
+"Please request a validation."
+msgstr ""
+"Cette action doit être validée pour au moins un enregistrement. \n"
+"Veuillez demander une validation.."
+
+#. module: mrp_production_tier_validation
+#: model:ir.model,name:mrp_production_tier_validation.model_tier_definition
+msgid "Tier Definition"
+msgstr ""
+
+#. module: mrp_production_tier_validation
+#: model:ir.model.fields,field_description:mrp_production_tier_validation.field_mrp_production__validated
+#: model_terms:ir.ui.view,arch_db:mrp_production_tier_validation.view_mrp_production_filter
+msgid "Validated"
+msgstr "Validé"
+
+#. module: mrp_production_tier_validation
+#: model:ir.model.fields,field_description:mrp_production_tier_validation.field_mrp_production__review_ids
+msgid "Validations"
+msgstr "Validations"
