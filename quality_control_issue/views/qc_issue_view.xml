@@ -203,7 +203,7 @@
     </record>
 
     <menuitem id="menu_qc_issue"
-              parent="quality_control.qc_menu"
+              parent="quality_control_oca.qc_menu"
               sequence="50" name="Issues"/>
 
     <menuitem id="menu_qc_issue_child"

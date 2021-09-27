@@ -26,7 +26,7 @@
     <menuitem name="Problem Stages"
         id="qc_stage_config_menu"
         groups="base.group_system"
-        parent="quality_control.menu_qc_config"
+        parent="quality_control_oca.menu_qc_config"
         action="qc_problem_stage_config_action"
         sequence="30"/>
 

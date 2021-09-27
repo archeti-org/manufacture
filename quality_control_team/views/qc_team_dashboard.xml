@@ -31,7 +31,7 @@
                             </div>
 
                             <div class="container o_kanban_card_manage_pane dropdown-menu" role="menu">
-                                <div t-if="widget.editable" class="o_kanban_card_manage_settings row" groups="quality_control.group_quality_control_manager">
+                                <div t-if="widget.editable" class="o_kanban_card_manage_settings row" groups="quality_control_oca.group_quality_control_manager">
                                     <div role="menuitem" aria-haspopup="true" class="col-8">
                                         <ul class="oe_kanban_colorpicker" data-field="color" role="menu"/>
                                     </div>
@@ -77,6 +77,6 @@
     </record>
 
     <menuitem id="menu_qc_team_act" action="qc_team_dashboard_act"
-              sequence="1" parent="quality_control.qc_menu" name="Dashboard"/>
+              sequence="1" parent="quality_control_oca.qc_menu" name="Dashboard"/>
 
 </odoo>
